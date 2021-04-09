@@ -191,222 +191,294 @@ Objective:  maximo = 492946 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 x[1,rv]      *            308             0               
-     2 x[1,cv]      *              0             0               
-     3 x[1,iv]      *              0             0               
-     4 x[2,rv]      *              0             0               
-     5 x[2,cv]      *              0             0               
-     6 x[2,iv]      *              0             0               
-     7 x[3,rv]      *              0             0               
-     8 x[3,cv]      *              0             0               
-     9 x[3,iv]      *              0             0               
-    10 x[4,rv]      *              0             0               
-    11 x[4,cv]      *              0             0               
-    12 x[4,iv]      *              0             0               
-    13 x[5,rv]      *            422             0               
-    14 x[5,cv]      *              0             0               
-    15 x[5,iv]      *              0             0               
-    16 x[6,rv]      *            422             0               
-    17 x[6,cv]      *              0             0               
-    18 x[6,iv]      *              0             0               
-    19 x[7,rv]      *              0             0               
-    20 x[7,cv]      *              0             0               
-    21 x[7,iv]      *            200             0               
-    22 x[8,rv]      *              0             0               
-    23 x[8,cv]      *              0             0               
-    24 x[8,iv]      *           1000             0               
-    25 x[9,rv]      *              0             0               
-    26 x[9,cv]      *              0             0               
-    27 x[9,iv]      *              0             0               
-    28 x[10,rv]     *              0             0               
-    29 x[10,cv]     *              0             0               
-    30 x[10,iv]     *              0             0               
-    31 x[11,rv]     *            308             0               
-    32 x[11,cv]     *              0             0               
-    33 x[11,iv]     *              0             0               
-    34 x[12,rv]     *            308             0               
-    35 x[12,cv]     *              0             0               
-    36 x[12,iv]     *              0             0               
-    37 y[1,rm]      *              0             0               
-    38 y[1,cm]      *              0             0               
-    39 y[1,im]      *           1000             0               
-    40 y[2,rm]      *              0             0               
-    41 y[2,cm]      *            850             0               
-    42 y[2,im]      *              0             0               
-    43 y[3,rm]      *              0             0               
-    44 y[3,cm]      *            850             0               
-    45 y[3,im]      *              0             0               
-    46 y[4,rm]      *              0             0               
-    47 y[4,cm]      *            850             0               
-    48 y[4,im]      *              0             0               
-    49 y[5,rm]      *              0             0               
-    50 y[5,cm]      *            656             0               
-    51 y[5,im]      *              0             0               
-    52 y[6,rm]      *              0             0               
-    53 y[6,cm]      *            656             0               
-    54 y[6,im]      *              0             0               
-    55 y[7,rm]      *              0             0               
-    56 y[7,cm]      *              0             0               
-    57 y[7,im]      *           1000             0               
-    58 y[8,rm]      *              0             0               
-    59 y[8,cm]      *              0             0               
-    60 y[8,im]      *            200             0               
-    61 y[9,rm]      *              0             0               
-    62 y[9,cm]      *            850             0               
-    63 y[9,im]      *              0             0               
-    64 y[10,rm]     *              0             0               
-    65 y[10,cm]     *            850             0               
-    66 y[10,im]     *              0             0               
-    67 y[11,rm]     *              0             0               
-    68 y[11,cm]     *              0             0               
-    69 y[11,im]     *           1000             0               
-    70 y[12,rm]     *              0             0               
-    71 y[12,cm]     *              0             0               
-    72 y[12,im]     *           1000             0               
-    73 z[1,re]      *              0             0               
-    74 z[1,ce]      *              0             0               
-    75 z[1,ie]      *              0             0               
-    76 z[2,re]      *              0             0               
-    77 z[2,ce]      *              0             0               
-    78 z[2,ie]      *              0             0               
-    79 z[3,re]      *              0             0               
-    80 z[3,ce]      *              0             0               
-    81 z[3,ie]      *              0             0               
-    82 z[4,re]      *              0             0               
-    83 z[4,ce]      *              0             0               
-    84 z[4,ie]      *              0             0               
-    85 z[5,re]      *              0             0               
-    86 z[5,ce]      *              0             0               
-    87 z[5,ie]      *              0             0               
-    88 z[6,re]      *              0             0               
-    89 z[6,ce]      *              0             0               
-    90 z[6,ie]      *              0             0               
-    91 z[7,re]      *              0             0               
-    92 z[7,ce]      *              0             0               
-    93 z[7,ie]      *              0             0               
-    94 z[8,re]      *              0             0               
-    95 z[8,ce]      *              0             0               
-    96 z[8,ie]      *              0             0               
-    97 z[9,re]      *              0             0               
-    98 z[9,ce]      *              0             0               
-    99 z[9,ie]      *              0             0               
-   100 z[10,re]     *              0             0               
-   101 z[10,ce]     *              0             0               
-   102 z[10,ie]     *              0             0               
-   103 z[11,re]     *              0             0               
-   104 z[11,ce]     *              0             0               
-   105 z[11,ie]     *              0             0               
-   106 z[12,re]     *              0             0               
-   107 z[12,ce]     *              0             0               
-   108 z[12,ie]     *              0             0               
-   109 w[1,rv]      *            308             0               
-   110 w[1,rm]      *              0             0               
-   111 w[1,re]      *              0             0               
-   112 w[2,rv]      *              0             0               
-   113 w[2,rm]      *              0             0               
-   114 w[2,re]      *              0             0               
-   115 w[3,rv]      *              0             0               
-   116 w[3,rm]      *              0             0               
-   117 w[3,re]      *              0             0               
-   118 w[4,rv]      *              0             0               
-   119 w[4,rm]      *              0             0               
-   120 w[4,re]      *              0             0               
-   121 w[5,rv]      *            422             0               
-   122 w[5,rm]      *              0             0               
-   123 w[5,re]      *              0             0               
-   124 w[6,rv]      *            422             0               
-   125 w[6,rm]      *              0             0               
-   126 w[6,re]      *              0             0               
-   127 w[7,rv]      *              0             0               
-   128 w[7,rm]      *              0             0               
-   129 w[7,re]      *              0             0               
-   130 w[8,rv]      *              0             0               
-   131 w[8,rm]      *              0             0               
-   132 w[8,re]      *              0             0               
-   133 w[9,rv]      *              0             0               
-   134 w[9,rm]      *              0             0               
-   135 w[9,re]      *              0             0               
-   136 w[10,rv]     *              0             0               
-   137 w[10,rm]     *              0             0               
-   138 w[10,re]     *              0             0               
-   139 w[11,rv]     *            308             0               
-   140 w[11,rm]     *              0             0               
-   141 w[11,re]     *              0             0               
-   142 w[12,rv]     *            308             0               
-   143 w[12,rm]     *              0             0               
-   144 w[12,re]     *              0             0               
-   145 t[1,cv]      *              0             0               
-   146 t[1,cm]      *              0             0               
-   147 t[1,ce]      *              0             0               
-   148 t[2,cv]      *              0             0               
-   149 t[2,cm]      *            850             0               
-   150 t[2,ce]      *              0             0               
-   151 t[3,cv]      *              0             0               
-   152 t[3,cm]      *            850             0               
-   153 t[3,ce]      *              0             0               
-   154 t[4,cv]      *              0             0               
-   155 t[4,cm]      *            850             0               
-   156 t[4,ce]      *              0             0               
-   157 t[5,cv]      *              0             0               
-   158 t[5,cm]      *            656             0               
-   159 t[5,ce]      *              0             0               
-   160 t[6,cv]      *              0             0               
-   161 t[6,cm]      *            656             0               
-   162 t[6,ce]      *              0             0               
-   163 t[7,cv]      *              0             0               
-   164 t[7,cm]      *              0             0               
-   165 t[7,ce]      *              0             0               
-   166 t[8,cv]      *              0             0               
-   167 t[8,cm]      *              0             0               
-   168 t[8,ce]      *              0             0               
-   169 t[9,cv]      *              0             0               
-   170 t[9,cm]      *            850             0               
-   171 t[9,ce]      *              0             0               
-   172 t[10,cv]     *              0             0               
-   173 t[10,cm]     *            850             0               
-   174 t[10,ce]     *              0             0               
-   175 t[11,cv]     *              0             0               
-   176 t[11,cm]     *              0             0               
-   177 t[11,ce]     *              0             0               
-   178 t[12,cv]     *              0             0               
-   179 t[12,cm]     *              0             0               
-   180 t[12,ce]     *              0             0               
-   181 u[1,iv]      *              0             0               
-   182 u[1,im]      *           1000             0               
-   183 u[1,ie]      *              0             0               
-   184 u[2,iv]      *              0             0               
-   185 u[2,im]      *              0             0               
-   186 u[2,ie]      *              0             0               
-   187 u[3,iv]      *              0             0               
-   188 u[3,im]      *              0             0               
-   189 u[3,ie]      *              0             0               
-   190 u[4,iv]      *              0             0               
-   191 u[4,im]      *              0             0               
-   192 u[4,ie]      *              0             0               
-   193 u[5,iv]      *              0             0               
-   194 u[5,im]      *              0             0               
-   195 u[5,ie]      *              0             0               
-   196 u[6,iv]      *              0             0               
-   197 u[6,im]      *              0             0               
-   198 u[6,ie]      *              0             0               
-   199 u[7,iv]      *            200             0               
-   200 u[7,im]      *           1000             0               
-   201 u[7,ie]      *              0             0               
-   202 u[8,iv]      *           1000             0               
-   203 u[8,im]      *            200             0               
-   204 u[8,ie]      *              0             0               
-   205 u[9,iv]      *              0             0               
-   206 u[9,im]      *              0             0               
-   207 u[9,ie]      *              0             0               
-   208 u[10,iv]     *              0             0               
-   209 u[10,im]     *              0             0               
-   210 u[10,ie]     *              0             0               
-   211 u[11,iv]     *              0             0               
-   212 u[11,im]     *           1000             0               
-   213 u[11,ie]     *              0             0               
-   214 u[12,iv]     *              0             0               
-   215 u[12,im]     *           1000             0               
-   216 u[12,ie]     *              0             0               
+     1 x[1,rvenus]  *            308             0               
+     2 x[1,cvenus]  *              0             0               
+     3 x[1,ivenus]  *              0             0               
+     4 x[2,rvenus]  *              0             0               
+     5 x[2,cvenus]  *              0             0               
+     6 x[2,ivenus]  *              0             0               
+     7 x[3,rvenus]  *              0             0               
+     8 x[3,cvenus]  *              0             0               
+     9 x[3,ivenus]  *              0             0               
+    10 x[4,rvenus]  *              0             0               
+    11 x[4,cvenus]  *              0             0               
+    12 x[4,ivenus]  *              0             0               
+    13 x[5,rvenus]  *            422             0               
+    14 x[5,cvenus]  *              0             0               
+    15 x[5,ivenus]  *              0             0               
+    16 x[6,rvenus]  *            422             0               
+    17 x[6,cvenus]  *              0             0               
+    18 x[6,ivenus]  *              0             0               
+    19 x[7,rvenus]  *              0             0               
+    20 x[7,cvenus]  *              0             0               
+    21 x[7,ivenus]  *            200             0               
+    22 x[8,rvenus]  *              0             0               
+    23 x[8,cvenus]  *              0             0               
+    24 x[8,ivenus]  *           1000             0               
+    25 x[9,rvenus]  *              0             0               
+    26 x[9,cvenus]  *              0             0               
+    27 x[9,ivenus]  *              0             0               
+    28 x[10,rvenus] *              0             0               
+    29 x[10,cvenus] *              0             0               
+    30 x[10,ivenus] *              0             0               
+    31 x[11,rvenus] *            308             0               
+    32 x[11,cvenus] *              0             0               
+    33 x[11,ivenus] *              0             0               
+    34 x[12,rvenus] *            308             0               
+    35 x[12,cvenus] *              0             0               
+    36 x[12,ivenus] *              0             0               
+    37 y[1,rmarth]  *              0             0               
+    38 y[1,cmarth]  *              0             0               
+    39 y[1,imarth]  *           1000             0               
+    40 y[2,rmarth]  *              0             0               
+    41 y[2,cmarth]  *            850             0               
+    42 y[2,imarth]  *              0             0               
+    43 y[3,rmarth]  *              0             0               
+    44 y[3,cmarth]  *            850             0               
+    45 y[3,imarth]  *              0             0               
+    46 y[4,rmarth]  *              0             0               
+    47 y[4,cmarth]  *            850             0               
+    48 y[4,imarth]  *              0             0               
+    49 y[5,rmarth]  *              0             0               
+    50 y[5,cmarth]  *            656             0               
+    51 y[5,imarth]  *              0             0               
+    52 y[6,rmarth]  *              0             0               
+    53 y[6,cmarth]  *            656             0               
+    54 y[6,imarth]  *              0             0               
+    55 y[7,rmarth]  *              0             0               
+    56 y[7,cmarth]  *              0             0               
+    57 y[7,imarth]  *           1000             0               
+    58 y[8,rmarth]  *              0             0               
+    59 y[8,cmarth]  *              0             0               
+    60 y[8,imarth]  *            200             0               
+    61 y[9,rmarth]  *              0             0               
+    62 y[9,cmarth]  *            850             0               
+    63 y[9,imarth]  *              0             0               
+    64 y[10,rmarth] *              0             0               
+    65 y[10,cmarth] *            850             0               
+    66 y[10,imarth] *              0             0               
+    67 y[11,rmarth] *              0             0               
+    68 y[11,cmarth] *              0             0               
+    69 y[11,imarth] *           1000             0               
+    70 y[12,rmarth] *              0             0               
+    71 y[12,cmarth] *              0             0               
+    72 y[12,imarth] *           1000             0               
+    73 z[1,rmercury]
+                    *              0             0               
+    74 z[1,cmercury]
+                    *              0             0               
+    75 z[1,imercury]
+                    *              0             0               
+    76 z[2,rmercury]
+                    *              0             0               
+    77 z[2,cmercury]
+                    *              0             0               
+    78 z[2,imercury]
+                    *              0             0               
+    79 z[3,rmercury]
+                    *              0             0               
+    80 z[3,cmercury]
+                    *              0             0               
+    81 z[3,imercury]
+                    *              0             0               
+    82 z[4,rmercury]
+                    *              0             0               
+    83 z[4,cmercury]
+                    *              0             0               
+    84 z[4,imercury]
+                    *              0             0               
+    85 z[5,rmercury]
+                    *              0             0               
+    86 z[5,cmercury]
+                    *              0             0               
+    87 z[5,imercury]
+                    *              0             0               
+    88 z[6,rmercury]
+                    *              0             0               
+    89 z[6,cmercury]
+                    *              0             0               
+    90 z[6,imercury]
+                    *              0             0               
+    91 z[7,rmercury]
+                    *              0             0               
+    92 z[7,cmercury]
+                    *              0             0               
+    93 z[7,imercury]
+                    *              0             0               
+    94 z[8,rmercury]
+                    *              0             0               
+    95 z[8,cmercury]
+                    *              0             0               
+    96 z[8,imercury]
+                    *              0             0               
+    97 z[9,rmercury]
+                    *              0             0               
+    98 z[9,cmercury]
+                    *              0             0               
+    99 z[9,imercury]
+                    *              0             0               
+   100 z[10,rmercury]
+                    *              0             0               
+   101 z[10,cmercury]
+                    *              0             0               
+   102 z[10,imercury]
+                    *              0             0               
+   103 z[11,rmercury]
+                    *              0             0               
+   104 z[11,cmercury]
+                    *              0             0               
+   105 z[11,imercury]
+                    *              0             0               
+   106 z[12,rmercury]
+                    *              0             0               
+   107 z[12,cmercury]
+                    *              0             0               
+   108 z[12,imercury]
+                    *              0             0               
+   109 w[1,rvenus]  *            308             0               
+   110 w[1,rmarth]  *              0             0               
+   111 w[1,rmercury]
+                    *              0             0               
+   112 w[2,rvenus]  *              0             0               
+   113 w[2,rmarth]  *              0             0               
+   114 w[2,rmercury]
+                    *              0             0               
+   115 w[3,rvenus]  *              0             0               
+   116 w[3,rmarth]  *              0             0               
+   117 w[3,rmercury]
+                    *              0             0               
+   118 w[4,rvenus]  *              0             0               
+   119 w[4,rmarth]  *              0             0               
+   120 w[4,rmercury]
+                    *              0             0               
+   121 w[5,rvenus]  *            422             0               
+   122 w[5,rmarth]  *              0             0               
+   123 w[5,rmercury]
+                    *              0             0               
+   124 w[6,rvenus]  *            422             0               
+   125 w[6,rmarth]  *              0             0               
+   126 w[6,rmercury]
+                    *              0             0               
+   127 w[7,rvenus]  *              0             0               
+   128 w[7,rmarth]  *              0             0               
+   129 w[7,rmercury]
+                    *              0             0               
+   130 w[8,rvenus]  *              0             0               
+   131 w[8,rmarth]  *              0             0               
+   132 w[8,rmercury]
+                    *              0             0               
+   133 w[9,rvenus]  *              0             0               
+   134 w[9,rmarth]  *              0             0               
+   135 w[9,rmercury]
+                    *              0             0               
+   136 w[10,rvenus] *              0             0               
+   137 w[10,rmarth] *              0             0               
+   138 w[10,rmercury]
+                    *              0             0               
+   139 w[11,rvenus] *            308             0               
+   140 w[11,rmarth] *              0             0               
+   141 w[11,rmercury]
+                    *              0             0               
+   142 w[12,rvenus] *            308             0               
+   143 w[12,rmarth] *              0             0               
+   144 w[12,rmercury]
+                    *              0             0               
+   145 t[1,cvenus]  *              0             0               
+   146 t[1,cmarth]  *              0             0               
+   147 t[1,cmercury]
+                    *              0             0               
+   148 t[2,cvenus]  *              0             0               
+   149 t[2,cmarth]  *            850             0               
+   150 t[2,cmercury]
+                    *              0             0               
+   151 t[3,cvenus]  *              0             0               
+   152 t[3,cmarth]  *            850             0               
+   153 t[3,cmercury]
+                    *              0             0               
+   154 t[4,cvenus]  *              0             0               
+   155 t[4,cmarth]  *            850             0               
+   156 t[4,cmercury]
+                    *              0             0               
+   157 t[5,cvenus]  *              0             0               
+   158 t[5,cmarth]  *            656             0               
+   159 t[5,cmercury]
+                    *              0             0               
+   160 t[6,cvenus]  *              0             0               
+   161 t[6,cmarth]  *            656             0               
+   162 t[6,cmercury]
+                    *              0             0               
+   163 t[7,cvenus]  *              0             0               
+   164 t[7,cmarth]  *              0             0               
+   165 t[7,cmercury]
+                    *              0             0               
+   166 t[8,cvenus]  *              0             0               
+   167 t[8,cmarth]  *              0             0               
+   168 t[8,cmercury]
+                    *              0             0               
+   169 t[9,cvenus]  *              0             0               
+   170 t[9,cmarth]  *            850             0               
+   171 t[9,cmercury]
+                    *              0             0               
+   172 t[10,cvenus] *              0             0               
+   173 t[10,cmarth] *            850             0               
+   174 t[10,cmercury]
+                    *              0             0               
+   175 t[11,cvenus] *              0             0               
+   176 t[11,cmarth] *              0             0               
+   177 t[11,cmercury]
+                    *              0             0               
+   178 t[12,cvenus] *              0             0               
+   179 t[12,cmarth] *              0             0               
+   180 t[12,cmercury]
+                    *              0             0               
+   181 u[1,ivenus]  *              0             0               
+   182 u[1,imarth]  *           1000             0               
+   183 u[1,imercury]
+                    *              0             0               
+   184 u[2,ivenus]  *              0             0               
+   185 u[2,imarth]  *              0             0               
+   186 u[2,imercury]
+                    *              0             0               
+   187 u[3,ivenus]  *              0             0               
+   188 u[3,imarth]  *              0             0               
+   189 u[3,imercury]
+                    *              0             0               
+   190 u[4,ivenus]  *              0             0               
+   191 u[4,imarth]  *              0             0               
+   192 u[4,imercury]
+                    *              0             0               
+   193 u[5,ivenus]  *              0             0               
+   194 u[5,imarth]  *              0             0               
+   195 u[5,imercury]
+                    *              0             0               
+   196 u[6,ivenus]  *              0             0               
+   197 u[6,imarth]  *              0             0               
+   198 u[6,imercury]
+                    *              0             0               
+   199 u[7,ivenus]  *            200             0               
+   200 u[7,imarth]  *           1000             0               
+   201 u[7,imercury]
+                    *              0             0               
+   202 u[8,ivenus]  *           1000             0               
+   203 u[8,imarth]  *            200             0               
+   204 u[8,imercury]
+                    *              0             0               
+   205 u[9,ivenus]  *              0             0               
+   206 u[9,imarth]  *              0             0               
+   207 u[9,imercury]
+                    *              0             0               
+   208 u[10,ivenus] *              0             0               
+   209 u[10,imarth] *              0             0               
+   210 u[10,imercury]
+                    *              0             0               
+   211 u[11,ivenus] *              0             0               
+   212 u[11,imarth] *           1000             0               
+   213 u[11,imercury]
+                    *              0             0               
+   214 u[12,ivenus] *              0             0               
+   215 u[12,imarth] *           1000             0               
+   216 u[12,imercury]
+                    *              0             0               
 
 Integer feasibility conditions:
 
