@@ -1,4 +1,4 @@
-Problem:    a
+Problem:    modelo1
 Rows:       181
 Columns:    216 (216 integer, 0 binary)
 Non-zeros:  756
